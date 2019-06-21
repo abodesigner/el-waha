@@ -1,0 +1,41 @@
+/* Start declaring Variables */
+.sidebar {
+  position: absolute;
+  top: 80px;
+  right: -200px;
+  z-index: 1;
+  width: 200px;
+  height: 600px;
+  background: transparent;
+  margin-top: 50px;
+  transition: all 0.7s ease-in-out; }
+  .sidebar.shrink {
+    top: 62px; }
+  .sidebar .sidebar-list {
+    background: transparent;
+    width: 100%;
+    padding-right: 0;
+    color: #fff;
+    margin: 0;
+    text-align: center; }
+    .sidebar .sidebar-list .item {
+      list-style-type: none;
+      width: 200px;
+      height: 40px;
+      margin-bottom: 5px;
+      background-color: #f8941e;
+      border-radius: 10px;
+      transition: all 0.15s ease-in-out; }
+      .sidebar .sidebar-list .item:hover {
+        background-color: #557198;
+        color: #000; }
+      .sidebar .sidebar-list .item a {
+        font-size: 20px;
+        color: inherit;
+        padding: 3px;
+        display: block;
+        font-family: "JannaLT-Bold", tahoma; }
+        .sidebar .sidebar-list .item a:hover, .sidebar .sidebar-list .item a:focus {
+          text-decoration: none; }
+
+/*# sourceMappingURL=sidebar.css.map */

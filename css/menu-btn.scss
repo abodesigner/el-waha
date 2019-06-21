@@ -1,0 +1,28 @@
+.menu-btn{
+	float: right;
+	margin-top: 25px;
+	padding-left: 10px;
+	background: none;
+	border:none;
+	@extend .shrink-transition;
+
+	.btn-line{
+		width: 45px;
+		height: 5px;
+		display: block;
+		margin-bottom: 7px;
+		background-color: #fff;
+		border-radius: 2px;
+	}// end btn-line
+
+	&:last-child{
+		margin-bottom: 0;
+	}
+}// end menu-btn
+
+.shrink-transition{
+	-webkit-transition: all 0.4s ease-in-out;
+   -moz-transition: all 0.4s ease-in-out;
+   -o-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+}

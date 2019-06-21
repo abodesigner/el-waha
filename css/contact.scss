@@ -1,0 +1,80 @@
+.contact{
+	background-image: url('../images/contact-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 100%;
+	min-height: 500px;
+	h1{
+		font-size: 50px;
+		color: #396eb5;
+		margin-top: 20px;
+		font-family: $font5;
+	}
+
+	.form-content{
+		background-color: #fff;
+		padding: 20px;
+		margin-top: 10px;
+		height: auto;
+
+		input[type=text]{
+			display: block;
+			width: 100%;
+			background-color: transparent;
+			margin-bottom: 10px;
+			border: 2px solid #707070;
+			padding: 10px;
+
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+		}
+		textarea{
+			width: 100%;
+			height: 175px;
+			border: 2px solid #707070;
+			background-color: transparent;
+			padding: 10px;
+
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+			  font-family: $font1;
+			  color:#c5c5c5;
+			}
+		}
+		button{
+			background-color: #e77f04;
+			border: 2px solid #ccc;
+			width: 100%;
+			padding: 10px;
+			font-size: 20px;
+			color: #fff;
+			font-family: $font1;
+			margin-top: 5px;
+		}
+	}
+}

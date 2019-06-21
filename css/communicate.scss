@@ -1,0 +1,72 @@
+.communicate{
+	padding-bottom: 20px;
+	.container{
+		.support{
+			// width: 500px;
+			height: 300px;
+			background-image: url('../images/support.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			.overlay{
+				background-color: rgba(0,0,0,0.8);
+				h2{
+					color: #ffac49;
+					padding-right: 10px;
+					padding-top: 10px;
+					margin-bottom: 5px;
+					font-family: $font2;
+					font-size: 30px;
+				}
+
+				h4{
+					margin-top: 0;
+					a{
+						color: #fff;
+						padding-right: 10px;
+						font-family: $font2;
+						font-size: 18px;
+						&:hover{
+							text-decoration: none;
+						}
+					}
+
+				}
+			}
+		}// end support
+
+		.download{
+			// width: 500px;
+			height: 300px;
+			background-image: url('../images/waha_app.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
+
+			.overlay{
+				background-color: rgba(0,0,0,0.8);
+				h2{
+					color: #ffac49;
+					padding-right: 10px;
+					padding-top: 10px;
+					margin-bottom: 5px;
+					font-family: $font2;
+					font-size: 30px;
+				}
+
+				h4{
+					margin-top: 0;
+					a{
+						color: #fff;
+						padding-right: 10px;
+						font-family: $font2;
+						font-size: 18px;
+						&:hover{
+							text-decoration: none;
+						}
+					}
+
+				}
+			}
+		}// end support
+	}
+}

@@ -1,0 +1,199 @@
+/* Start declaring Variables */
+$orangeColor: #f8941e;
+$blueColor:   #396eb5;
+$greyColor:   #767675;
+
+$font1 :'JannaLT-Bold', tahoma;
+$font2 :'bader_al gordabia', tahoma;
+$font3 :'Basha-11b Medium', tahoma;
+$font4 :'AraHamah1982-Regular', tahoma;
+$font5 :'AlRaiMediaBold', tahoma;
+
+/* Start Main-section */
+.wrapper-books{
+	background-image: url('../images/books2-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 550px;
+	height: 100%;
+	position: relative;
+
+	.header{
+		background-color: rgba(116,147,191,0.8);
+		width: 100%;
+		height: 80px;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 999;
+
+		.logo_book{
+			width: 185px;
+			padding-top: 5px;
+		}
+
+		.nav-list{
+			padding-top: 34px;
+
+			.list-item{
+				list-style-type: none;
+				display: inline-block;
+				border-left: 2px solid #fff;
+				padding-left: 15px;
+				padding-right: 10px;
+				&:last-child{
+					@extend .noBorder;
+					margin-right: 100px;
+				}
+
+				&:nth-child(3){
+					@extend .noBorder;
+
+				}
+
+				a{
+					color: #fff;
+					font-size: 18px;
+					font-family: $font1;
+					transition: 0.4s;
+
+					&:hover,&:focus{
+						text-decoration: none;
+						color: $orangeColor;
+						text-decoration: underline;
+					}
+
+				}
+			}
+		}
+	}
+	.search-box{
+		height: 250px;
+
+		position: absolute;
+		top: 200px;
+		right: 0;
+		left: 0;
+
+		.search-content{
+			text-align: center;
+			h1{
+				font-size: 48px;
+				font-family: $font1;
+				color: #fff;
+				margin-bottom: 30px;
+			}
+			.buttonWrapper{
+				position: relative;
+
+				input[type=text]{
+					height: 47px;
+					width: 50%;
+					border: 0;
+					border-radius: 5px;
+				}
+				button.search-btn{
+					position: absolute;
+					top: 3px;
+					left: 283px;
+					background: 0;
+					border: 0;
+				}
+			}
+		}
+	}
+}
+/* End Main-section */
+
+/* Strat Our-Tasks */
+.our-tasks{
+	margin-bottom: 20px;
+	h1{
+		color: $orangeColor;
+		font-family: $font2;
+		font-size: 65px;
+		margin-top: 40px;
+		margin-bottom: 60px;
+	}
+	.task{
+		img{
+			&.img-responsive{
+				margin: 0 auto;
+			}
+		}
+		h2{
+			font-family: $font2	;
+			font-size: 40px;
+			color: $blueColor;
+		}
+		p{
+			font-family: $font4;
+			color: $greyColor;
+			font-size: 20px;
+			text-align: right;
+		}
+
+	}
+}
+/* End Our-Tasks */
+
+/* Start Degrees Section */
+.degrees{
+	margin-bottom: 50px;
+	.grey-bg{
+		background-color: #ebebeb;
+		border-radius: 5px;
+		h1{
+			color: $blueColor;
+			font-family: $font2;
+			font-size: 60px;
+			padding-top: 40px;
+			margin-bottom: 40px;
+		}
+		.degree{
+			img{
+				&.img-responsive{
+					margin: 0 auto;
+					margin-bottom: 20px;
+				}
+			}
+			h2{
+				font-family: $font4;
+				color: #767675;
+				margin-bottom: 20px;
+			}
+			p{
+				font-family: $font4;
+				color: #767675;
+				font-size: 20px;
+				text-align: center;
+			}
+		}
+	}
+}
+/* End Degrees Section */
+
+/* Start Students Section */
+.students{
+	margin-bottom: 60px;
+	h1{
+		color: $orangeColor;
+		font-family: $font2;
+		font-size: 60px;
+	}
+	.stuComment{
+		p{
+			font-family: $font4;
+			font-size: 30px;
+			color: #767675;
+		}
+	}
+}
+/* End Students Section */
+
+.gray{
+	width: 100%;
+	height: 40px;
+	background-color: #bdbcba;
+}

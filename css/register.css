@@ -1,0 +1,112 @@
+/* Start declaring Variables */
+/* Start Register Page */
+.wrapper {
+  background-image: url("../images/register-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 750px;
+  height: 100%; }
+  .wrapper .header {
+    height: 80px;
+    background-color: rgba(116, 147, 191, 0.6);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    /* Start declaring Variables */ }
+    .wrapper .header .menu-btn {
+      float: right;
+      margin-top: 25px;
+      padding-left: 10px;
+      background: none;
+      border: none; }
+      .wrapper .header .menu-btn .btn-line {
+        width: 45px;
+        height: 5px;
+        display: block;
+        margin-bottom: 7px;
+        background-color: #fff;
+        border-radius: 2px; }
+      .wrapper .header .menu-btn:last-child {
+        margin-bottom: 0; }
+    .wrapper .header .shrink-transition, .wrapper .header .menu-btn {
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
+    .wrapper .header .sidebar {
+      position: absolute;
+      top: 80px;
+      right: -200px;
+      z-index: 1;
+      width: 200px;
+      height: 600px;
+      background: transparent;
+      margin-top: 50px;
+      transition: all 0.7s ease-in-out; }
+      .wrapper .header .sidebar.shrink {
+        top: 62px; }
+      .wrapper .header .sidebar .sidebar-list {
+        background: transparent;
+        width: 100%;
+        padding-right: 0;
+        color: #fff;
+        margin: 0;
+        text-align: center; }
+        .wrapper .header .sidebar .sidebar-list .item {
+          list-style-type: none;
+          width: 200px;
+          height: 40px;
+          margin-bottom: 5px;
+          background-color: #f8941e;
+          border-radius: 10px;
+          transition: all 0.15s ease-in-out; }
+          .wrapper .header .sidebar .sidebar-list .item:hover {
+            background-color: #557198;
+            color: #000; }
+          .wrapper .header .sidebar .sidebar-list .item a {
+            font-size: 20px;
+            color: inherit;
+            padding: 3px;
+            display: block;
+            font-family: "JannaLT-Bold", tahoma; }
+            .wrapper .header .sidebar .sidebar-list .item a:hover, .wrapper .header .sidebar .sidebar-list .item a:focus {
+              text-decoration: none; }
+    .wrapper .header .logo-sm {
+      float: right;
+      margin-right: 30px;
+      width: 185px;
+      padding-top: 5px; }
+  .wrapper .register-form .main-form {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #396eb5;
+    border-bottom: 0;
+    border-radius: 5px;
+    float: left;
+    margin-top: 150px;
+    padding: 10px; }
+    .wrapper .register-form .main-form hr {
+      border-color: #e4e4e4;
+      width: 70%; }
+    .wrapper .register-form .main-form h1 {
+      text-align: center;
+      color: #f8941e;
+      font-size: 40px;
+      font-family: "bader_al gordabia", tahoma;
+      margin: 10px 0; }
+    .wrapper .register-form .main-form .form-horizontal h6 {
+      font-family: "JannaLT-Bold", tahoma;
+      font-size: 18px; }
+    .wrapper .register-form .main-form .form-horizontal h4 {
+      font-family: "bader_al gordabia", tahoma;
+      font-size: 22px;
+      color: #396eb5;
+      font-weight: 700; }
+
+/* End Register Page */
+
+/*# sourceMappingURL=register.css.map */

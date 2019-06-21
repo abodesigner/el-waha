@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> الكتب</title>
+
+	<!-- Original Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Bootstrap RTL -->
+    <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
+
+	<!-- Fontawesom file -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Main Style -->
+    <link href="css/style.css" rel="stylesheet">
+
+	<!-- Media Query Style -->
+    <link href="css/media.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  	<body>
+
+	<div class="wrapper-books">
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-1">
+						<!-- Start menu-btn -->
+						<button class="menu-btn">
+							<span class="btn-line"></span>
+							<span class="btn-line"></span>
+							<span class="btn-line"></span>
+						</button>
+						<!-- End menu-btn -->
+					</div>
+
+					<div class="col-xs-3">
+						<div class="logo_book">
+							<a href="index.html"><img src="images/logo_book.png" alt="logo" draggable="false" class="img-responsive"></a>
+						</div>
+					</div>
+
+					<div class="sidebar">
+						<ul class="sidebar-list">
+							<li class="item">
+								<a href="#">
+									<span class="fa fa-book" aria-hidden="true"></span>
+										الكتب
+									</a>
+							</li>
+							<li class="item">
+								<a href="#">
+									<span class="fa fa-graduation-cap" aria-hidden="true"></span>
+									الدراسة والتدريب
+								</a>
+							</li>
+							<li class="item">
+								<a href="#">
+									المحاضرين
+								</a>
+							</li>
+							<li class="item">
+								<a href="#">
+									إعداد الإختبارات
+								</a>
+							</li>
+							<li class="item">
+								<a href="#">
+									<span class="fa fa-usd" aria-hidden="true"></span>
+									تاجر معنا
+								</a>
+							</li>
+							<li class="item">
+								<a href="#">
+									<span class="fa fa-plane" aria-hidden="true"></span>
+									منح دراسية
+								</a>
+							</li>
+							<li class="item">
+								<a href="#">
+								 	التوظيف
+								</a>
+							</li>
+							<li class="item">
+								<a href="#">
+									التسجيل
+
+								</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="col-md-8 hidden-xs">
+						<!-- Start navbar header -->
+						<nav>
+							<ul class="nav-list">
+								<li class="list-item">
+									<a href="#">
+										كتب جديدة
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#">
+										كتب مستعملة
+									</a>
+								</li>
+								<li class="list-item">
+									<a href="#">
+		            					كتب للإستعارة
+									</a>
+								</li>
+
+								<li class="list-item">
+									<a href="register.html" target="_self">
+										التسجيل
+										<span class="fa fa-angle-down" aria-hidden="true"></span>
+									</a>
+								</li>
+							</ul>
+						</nav><!-- End navbar header -->
+					</div>
+				</div>
+			</div><!-- End Container -->
+		</div><!-- End Header -->
+
+		<div class="search-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="search-content">
+							<h1> ابحث عن الكتاب الذى تحتاجه</h1>
+							<div class="buttonWrapper">
+								<input type="text" name="" value="" placeholder=" ابحث عن طريق اسم الكتاب - العنوان - اسم الكاتب">
+								<button type="button" class="search-btn"><img src="images/search-icon.png" alt="search" class="img-responsive"></button>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- End wrapper-books -->
+
+	<!-- Start Books-result -->
+	<div class="books-result">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2">
+					<div class="control-btn">
+						<ul class="control-list">
+							<li class="cl"><a href="#"> <i class="fa fa-th" aria-hidden="true"></i> الكل</a></li>
+							<li class="cl"><a href="#"><i class="fa fa-book" aria-hidden="true"></i> الكتب </a></li>
+							<li class="cl"><a href="#"><span class="fa fa-leanpub" aria-hidden="true"></span> الدراسة </a></li>
+							<li class="cl"><a href="#"><i class="fa fa-graduation-cap" aria-hidden="true"></i> المحاضرين </a></li>
+						</ul>
+					</div>
+
+				</div>
+				<div class="col-md-10 book-content">
+					<div class="row">
+						<div class="col-md-2">
+							<img src="images/result-icon.png" alt="book-result" class="img-responsive">
+						</div>
+						<div class="col-md-5">
+							<div class="book-details">
+								<p><span class="book-name"> إسم الكتاب : </span> you write to write</p>
+								<p><span class="book-category"> التصنيف : </span> أدب</p>
+								<p><span class="author">المؤلف : </span> محمد عبد الله طوسون</p>
+								<p><span class="rating"> التقييم العام : </span>
+									<span class="fa fa-star-o" aria-hidden="true"></span>
+									<span class="fa fa-star-o" aria-hidden="true"></span>
+									<span class="fa fa-star-half-o" aria-hidden="true"></span>
+									<span class="fa fa-star" aria-hidden="true"></span>
+									<span class="fa fa-star" aria-hidden="true"></span>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<ul class="prices">
+								<li class="rent"> تأجير : 50 ريال</li>
+								<li class="last-price"> اخر سعر : 100ريال</li>
+								<li class="e-buy"> اخر شراء إلكترونى : لا يوجد</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="col-md-10 book-content">
+					<div class="row">
+						<div class="col-md-2">
+							<img src="images/result-icon.png" alt="book-result" class="img-responsive">
+						</div>
+						<div class="col-md-5">
+							<div class="book-details">
+								<p><span class="book-name"> إسم الكتاب : </span> you write to write</p>
+								<p><span class="book-category"> التصنيف : </span> أدب</p>
+								<p><span class="author">المؤلف : </span> محمد عبد الله طوسون</p>
+								<p><span class="rating"> التقييم العام : </span>
+									<span class="fa fa-star-o" aria-hidden="true"></span>
+									<span class="fa fa-star-o" aria-hidden="true"></span>
+									<span class="fa fa-star-half-o" aria-hidden="true"></span>
+									<span class="fa fa-star" aria-hidden="true"></span>
+									<span class="fa fa-star" aria-hidden="true"></span>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<ul class="prices">
+								<li class="rent"> تأجير : 50 ريال</li>
+								<li class="last-price"> اخر سعر : 100ريال</li>
+								<li class="e-buy"> اخر شراء إلكترونى : لا يوجد</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-10 col-md-push-2 book-content">
+					<div class="row">
+						<div class="col-md-2">
+							<img src="images/result-icon.png" alt="book-result" class="img-responsive">
+						</div>
+						<div class="col-md-5">
+							<div class="book-details">
+								<p><span class="book-name"> إسم الكتاب : </span> you write to write</p>
+								<p><span class="book-category"> التصنيف : </span> أدب</p>
+								<p><span class="author">المؤلف : </span> محمد عبد الله طوسون</p>
+								<p><span class="rating"> التقييم العام : </span>
+									<span class="fa fa-star-o" aria-hidden="true"></span>
+									<span class="fa fa-star-o" aria-hidden="true"></span>
+									<span class="fa fa-star-half-o" aria-hidden="true"></span>
+									<span class="fa fa-star" aria-hidden="true"></span>
+									<span class="fa fa-star" aria-hidden="true"></span>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<ul class="prices">
+								<li class="rent"> تأجير : 50 ريال</li>
+								<li class="last-price"> اخر سعر : 100ريال</li>
+								<li class="e-buy"> اخر شراء إلكترونى : لا يوجد</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div> <!-- end row-1 -->
+
+			<div class="row">
+				<div class="col-xs-12">
+					<nav aria-label="Page navigation" class="text-center">
+						<ul class="pagination">
+						  <li class="page-item">
+							<a class="page-link" href="#" aria-label="Previous">
+							  <span aria-hidden="true">&laquo;</span>
+							  <span class="sr-only">Previous</span>
+							</a>
+						  </li>
+						  <li class="page-item"><a class="page-link" href="#">1</a></li>
+						  <li class="page-item"><a class="page-link" href="#">2</a></li>
+						  <li class="page-item"><a class="page-link" href="#">3</a></li>
+						  <li class="page-item"><a class="page-link" href="#">4</a></li>
+						 <li class="page-item"><a class="page-link" href="#">5</a></li>
+						 <li class="page-item"><a class="page-link" href="#">6</a></li>
+						  <li class="page-item">
+							<a class="page-link" href="#" aria-label="Next">
+							  <span aria-hidden="true">&raquo;</span>
+							  <span class="sr-only">Next</span>
+							</a>
+						  </li>
+						</ul>
+					 </nav>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Books-result -->
+
+
+	<div class="gray"></div>
+
+	<!-- Start Footer -->
+	<section class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-xs-6">
+					<ul class="list2">
+						<li class="item-list"><a href="#"> الكتب</a></li>
+						<li class="item-list"><a href="#"> الدراسة</a></li>
+						<li class="item-list"><a href="#"> المحاضرين</a></li>
+						<li class="item-list"><a href="#"> الإختبارات</a></li>
+						<li class="item-list"><a href="#"> التسجيل</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-xs-6">
+					<ul class="list2">
+						<li class="item-list"><a href="#"> اتصل بنا</a></li>
+						<li class="item-list"><a href="#"> التطبيق</a></li>
+						<li class="item-list"><a href="#"> حلول الاختبارات</a></li>
+						<li class="item-list"><a href="#"> الكتب</a></li>
+						<li class="item-list"><a href="#"> موقعنا</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Footer -->
+
+	<!-- Start copyrights -->
+	<div class="copy-right">
+		<p>جميع الحقوق محفوظة لصالح موقه الواحه الأكاديمية</p>
+	</div>
+	<!-- End copyrights -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.12.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

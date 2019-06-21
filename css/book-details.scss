@@ -1,0 +1,294 @@
+/* Start declaring Variables */
+$orangeColor: #f8941e;
+$blueColor: #396eb5;
+$font1 :'JannaLT-Bold', tahoma;
+$font2 :'bader_al gordabia', tahoma;
+$font3 :'Basha-11b Medium', tahoma;
+$font4 :'AraHamah1982-Regular', tahoma;
+$font5 :'AlRaiMediaBold', tahoma;
+
+button:focus,input:focus{
+	outline: 0;
+}
+
+.wrapper-books-details{
+	background: 0;
+	position: relative;
+	min-height: 100px;
+	@import 'header_books';
+
+}
+
+.charge-header{
+	margin: 40px 0;
+
+	.grey-bg{
+		background-color: #ccc;
+		padding: 5px;
+		border:1px solid #b9b6b6;
+
+
+
+		.free-charge1{
+			text-align: right;
+			p{
+				display: inline-block;
+				margin-bottom: 0;
+				font-size: 20px;
+				font-family: $font2;
+			}
+			span{
+				color: $blueColor;
+
+			}
+			a{
+				font-size: 20px;
+				font-family: $font2;
+			}
+		}
+
+		.free-charge2{
+			text-align: left;
+			p{
+				display: inline-block;
+				margin-bottom: 0;
+				font-size: 20px;
+				font-family: $font2;
+			}
+			.btn{
+				font-size: 18px;
+				font-family: $font1;
+				width: 30%;
+				&.btn-default{
+					color: #fff;
+    				background-color: #f8941e;
+    				border-color: #717171;
+				}
+			}
+
+		}
+	}
+} //end charge-header
+
+.book-topic{
+	.topic{
+		ul{
+			padding-right: 0;
+			li{
+				list-style-type: none;
+				display: inline-block;
+				border-left:1px solid #888;
+				padding-left: 10px;
+				padding-right: 5px;
+
+				&:last-child{
+					border-left: 0;
+				}
+				a{
+					font-size: 18px;
+					font-family: $font2;
+				}
+			}
+		}
+		p{
+			font-size: 18px;
+			font-family: $font2;
+		}
+	}
+} //end book-topic
+
+.book-functions{
+	.book-cover{
+		img{
+			margin-bottom: 10px;
+			&.img-responisve{
+				margin: 0 auto;
+			}
+		}
+		.fa-book{font-size: 20px}
+		.exam{
+			font-size: 18px;
+			margin-right: 15px;
+			font-family: $font5;
+			font-weight: 600;
+		}
+		.isbn-1{
+			margin-left: 60px;
+			float: right;
+		}
+		.isbn-2{
+			margin-left: 48px;
+			float: right;
+		}
+		.isbn-name{
+			margin-right: 60px;
+		}
+		.isbn-name,.isbn-author{
+			font-family: $font2;
+			font-size: 16px;
+		}
+	}
+	.main-functions{
+		background-color: #f8f8f8;
+		padding-bottom: 10px;
+		#myTab{
+			li{
+				a{
+					font-family: $font2;
+					font-size: 20px;
+					transition: all 0.3s ease-in-out;
+
+					&:hover,&:focus{
+						background-color: $orangeColor;
+						color: #fff;
+					}
+				}
+			}
+		}
+		.tab-content{
+			#sectionA{
+
+				.book-rent{
+					padding: 0 5px;
+					border-left: 1px solid #dcdcdc;
+					h6{
+						font-size: 18px;
+						font-family: $font2;
+						color: $orangeColor;
+						span{
+							margin-right: 150px;
+						}
+					}
+					p{
+						font-size: 16px;
+						font-family: $font2;
+					}
+					#notes{
+						li{
+							font-size: 14px;
+							font-family: $font2;
+						}
+					}
+					hr{
+						border-color: #dcdcdc;
+						width:80%;
+					}
+					h5{
+						font-size: 20px;
+						font-family: $font2;
+					}
+					#adv{
+						li{
+							font-size: 14px;
+							font-family: $font2;
+						}
+					}
+				}
+
+				.add2cart{
+					p{
+						font-size: 20px;
+						font-family: $font2;
+						margin-top: 10px;
+					}
+					.book-answers{
+						.checkbox{
+							border:1px solid #bbb;
+							border-radius: 5px;
+							padding: 10px 15px;
+
+							.heading{
+								font-size: 18px;
+								font-family: $font2;
+							}
+							span{
+								font-size: 18px;
+
+							}
+
+							h6{
+								font-size: 16px;
+								font-family: $font2;
+								margin: 0;
+								padding-right: 20px;
+							}
+							.more{
+								margin-right: 15px;
+							}
+
+						}
+
+						p{
+							font-size: 16px;
+							font-family: $font2;
+
+							span{
+								margin-right: 80px;
+							}
+						}
+
+						.last-price,.save{
+							font-size: 16px;
+							font-family: $font2;
+						}
+						.save{
+							margin-right: 30px;
+						}
+						button.btn.btn-primary{
+							float: left;
+							margin-top: 30px;
+							font-family: $font2;
+							font-size: 16px;
+						}
+					}
+				}
+
+			}//end sectionA
+		}
+	}
+
+	.explaination{
+		margin: 20px 0;
+		span{
+			font-family: $font2;
+			font-size: 16px;
+
+			&.list-price{
+				margin-right: 100px;
+			}
+		}
+	}
+	.similar-header{font-family: $font2;font-size: 20px;margin-bottom: 0}
+	.similar-books{
+		margin-bottom: 30px;
+		img{
+			float: right;
+			margin-left: 10px;
+		}
+		p{
+			margin-bottom: 0;
+			padding-top: 5px;
+			font-family: $font1;
+		}
+		span{
+			font-family: $font3;
+			color: #888;
+		}
+	}
+	.topic-details{
+		h4{
+			font-family: $font2;
+			font-size: 20px;
+			margin-bottom: 10px;
+		}
+		p{
+			color: #888;
+			font-family: $font2;
+		}
+	}
+}
+
+
+.gray{
+	margin-top: 20px;
+}

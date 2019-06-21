@@ -1,0 +1,657 @@
+$orangeColor: #f8941e;
+$font1 :'JannaLT-Bold', tahoma;
+$font2 :'bader_al gordabia', tahoma;
+$font3 :'Basha-11b Medium', tahoma;
+$font4 :'AraHamah1982-Regular', tahoma;
+$font5 :'AlRaiMediaBold', tahoma;
+
+
+/* Start Media Queries */
+$extra-small-screens : 'only screen and (max-width:767px)'; /* Portrait phones and smaller */
+$small-screens 		 : 'only screen and (min-width:768px) and (max-width:991px)'; /* Landscape phones and portrait tablets */
+$medium-screens		 : 'only screen and (min-width:992px) and (max-width:1199px)'; /* Portrait tablets and small desktops */
+$large-screens 		 : 'only screen and (min-width:1200px)'; /* Landscape tablets and medium desktops */
+
+
+
+@media #{$extra-small-screens} {
+
+	/* Start Home Page */
+	.main-section .header{
+		height: 65px;
+		&.shrink{
+			height: 65px;
+		}
+	}
+
+	.main-section .header .container .menu-btn{
+		margin-top: 20px;
+		&.shrink{
+			margin-top: 20px;
+		}
+	}
+
+	.main-section .header .container .logo{
+		padding-top: 5px;
+		// width: 130px;
+
+		&.shrink{
+			// width: 130px;
+			padding-top: 5px;
+
+		}
+
+		img{
+			max-width: 85%;
+		}
+	}
+
+	.nav-list{display: none}
+
+	.main-section{
+		min-height: 490px;
+	}
+	.main-section .header .container .menu-btn .btn-line{
+		width: 35px;
+		height: 4px;
+		margin-bottom: 4px;
+
+		&.shrink{
+			width: 35px;
+			height: 4px;
+		}
+	}
+
+	.main-section .header .container .sidebar .sidebar-list .item{
+		width: 120px;
+		height: 30px;
+	}
+
+	.main-section .header .container .sidebar .sidebar-list .item a{
+		padding: 5px;
+		font-size: 13px;
+	}
+
+	.main-section .header .container .sidebar{
+		top: 50px;
+	}
+
+	.search-section{
+		top: 100px;
+	}
+
+	.search-section .heading p{
+		font-size: 24px;
+	}
+
+	.search-section .heading h2{
+		font-size: 20px;
+	}
+
+	.search-section .search .container .row .col-md-3{
+		&:nth-child(2){
+			border-left:none;
+		}
+	}
+
+	.search-section .search .container .row .col-md-3 .block{
+		margin-bottom: 15px;
+	}
+
+	.search-section .search button.search{
+		margin-left: -3px;
+    	margin-top: -35px;
+    	width: 13%;
+	}
+
+	.search-section .search h3{
+		font-size: 18px;
+	}
+
+	.search-section .search h4{
+		font-size: 20px;
+	}
+
+	.search-section .search input[type=text]{
+		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  font-size: 10px;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */
+		  font-size: 10px;
+		}
+		&:-ms-input-placeholder { /* IE 10+ */
+		  font-size: 10px;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+		  font-size: 10px;
+		}
+	}
+
+	.communicate .container .support .overlay h2{
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.communicate .container .support .overlay h4{
+		text-align: center;
+	}
+
+	.communicate .container .download .overlay h2{
+		text-align: center;
+		font-size: 24px;
+	}
+
+	.communicate .container .download .overlay h4{
+		text-align: center;
+	}
+
+	.training{
+		min-height: 300px;
+	}
+
+	.training .text{
+		width: 100%;
+		margin-top: 60px;
+	}
+
+	.training .text h1{
+		text-align: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.training .text p{
+		font-size: 13px;
+		color: #fff;
+	}
+
+	.source{
+		min-height: 330px;
+	}
+
+	.source .text2{
+		width: 100%;
+	}
+
+	.source .text2 h1{
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.source .text2 p{
+		color: #fff;
+		font-size: 13px;
+	}
+
+	.trade{
+		min-height: 300px;
+	}
+
+	.trade .text3{
+		width: 100%;
+		margin-top: 60px;
+	}
+
+	.trade .text3 h1{
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.trade .text3 p{
+		font-size: 13px;
+	}
+
+	.contact{
+		min-height: 490px;
+	}
+
+	.contact h1{
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.contact .form-content{
+		width: 100%;
+		margin-top: 110px;
+		background-color: #f9f9f9;
+		padding: 5px;
+	}
+
+	.contact .form-content input[type=text]{
+		padding: 5px;
+		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  font-size: 13px;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */
+		  font-size: 13px;
+		}
+		&:-ms-input-placeholder { /* IE 10+ */
+		  font-size: 13px;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+		  font-size: 13px;
+		}
+	}
+
+	.contact .form-content textarea{
+		padding: 5px;
+
+		&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+		  font-size: 13px;
+		}
+		&::-moz-placeholder { /* Firefox 19+ */
+		  font-size: 13px;
+		}
+		&:-ms-input-placeholder { /* IE 10+ */
+		  font-size: 13px;
+		}
+		&:-moz-placeholder { /* Firefox 18- */
+		  font-size: 13px;
+		}
+	}
+
+	.contact .form-content button{
+		padding: 5px;
+		font-size: 16px;
+	}
+
+	.contact h1{
+		margin-bottom: 0
+	}
+
+	.book-shop{padding-top: 0}
+
+	.book-shop .book{
+		margin: 5px auto;
+    	padding: 5px;
+	}
+
+	.book-shop .book p{
+		margin-right: 5px;
+	}
+
+	.menu-footer{
+		.list{
+			padding-right: 0;
+			.item-list{
+				a{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	.menu-footer h1{margin-top: 0}
+
+	.footer{padding-bottom: 10px}
+
+	.footer .list2{
+		margin-top: 10px;
+		margin-bottom: 0;
+	}
+
+	.footer .list2 .item-list a{
+		font-size: 13px;
+	}
+
+	.copy-right p{
+		font-size: 12px;
+	}
+
+	.copy-right span{font-size: 10px;font-weight: bold}
+	/* End Home Page */
+
+
+	/* Start books page */
+	.wrapper-books .search-box .search-content h1{
+		font-size: 30px;
+	}
+
+	.wrapper-books .search-box .search-content .buttonWrapper input[type=text]{
+		width: 100%;
+	}
+
+	.wrapper-books .search-box .search-content .buttonWrapper button.search-btn{
+		left: 0;
+	}
+	/* End books page */
+}
+
+@media #{$small-screens}{
+
+	/* Start Home Page */
+	.main-section .header{
+		height: 65px;
+		&.shrink{
+			height: 65px;
+		}
+	}
+
+	.nav-list{display: none}
+
+	.main-section{
+		min-height: 490px;
+	}
+	.main-section .header .container .menu-btn .btn-line{
+		width: 33px;
+		height: 4px;
+		margin-bottom: 4px;
+
+		&.shrink{
+			width: 33px;
+			height: 4px;
+			margin-bottom: 4px;
+		}
+	}
+
+	.main-section .header .container .menu-btn{
+		margin-top: 20px;
+		&.shrink{
+			margin-top: 20px;
+		}
+	}
+
+	.main-section .header .container .logo{padding-top: 5px}
+
+	.main-section .header .container .logo img{max-width: 60%}
+
+
+	.search-section .heading p{font-size: 40px}
+
+	.search-section .heading h2{font-size: 28px}
+
+	.main-section .header .container .sidebar .sidebar-list .item{width: 120px;height: 30px}
+
+	.main-section .header .container .sidebar .sidebar-list .item a{padding: 5px;font-size: 13px}
+
+	.main-section .header .container .sidebar{top: 50px}
+
+	.search-section{top: 75px}
+
+	.search-section .search .container .row .col-md-3{
+		&:nth-child(2){
+			border-left:none;
+		}
+	}
+
+	.search-section .search .container .row .col-md-3 .block{margin-bottom: 15px}
+
+	.search-section .search button.search{
+		margin-left: -3px;
+		margin-top: -35px;
+		width: 13%;
+	}
+
+	.search-section .search h3{font-size: 18px}
+
+	.search-section .search h4{font-size: 20px}
+
+	.communicate .container .support .overlay h2{text-align: center}
+
+	.communicate .container .support .overlay h4{text-align: center}
+
+	.communicate .container .download .overlay h2{text-align: center}
+
+	.communicate .container .download .overlay h4{text-align: center}
+
+	.training{min-height: 300px}
+
+	.training .text{width: 100%;margin-top: 60px}
+
+	.training .text h1{
+		text-align: right;
+		font-size: 28px;
+		font-weight: bold;
+	}
+
+	.training .text p{font-size: 13px}
+
+	.source{min-height: 330px}
+
+	.source .text2{width: 100%}
+
+	.source .text2 h1{font-size: 28px;font-weight: bold}
+
+	.source .text2 p{color: #fff;font-size: 13px}
+
+	.trade{min-height: 300px}
+
+	.trade .text3{width: 100%;margin-top: 60px}
+
+	.trade .text3 h1{font-size: 28px;font-weight: bold}
+
+	.trade .text3 p{font-size: 13px}
+
+	.contact{min-height: 520px}
+
+	.contact h1{font-size: 28px;font-weight: bold}
+
+	.contact .form-content{
+		width: 100%;
+		margin-top: 110px;
+		background-color: #f9f9f9;
+		padding: 10px;
+	}
+
+	.contact h1{margin-bottom: 0}
+
+	.menu-footer{
+		.list{
+			padding-right: 0;
+			.item-list{
+				a{
+					font-size: 13px;
+				}
+			}
+		}
+	}
+
+	.footer .list2{margin-top: 10px}
+
+	.footer .list2 .item-list a{font-size: 13px}
+
+	.copy-right p{font-size: 14px;}
+	/* End Home Page */
+
+	/* Start books page */
+	.wrapper-books .search-box .search-content h1{font-size: 30px;}
+
+	.wrapper-books .search-box .search-content .buttonWrapper input[type=text]{width: 100%}
+
+	.wrapper-books .search-box .search-content .buttonWrapper button.search-btn{left: 0}
+
+	.our-tasks h1{font-size: 30px;margin-bottom: 30px}
+
+	.degrees .grey-bg h1{font-size: 36px}
+	/* End books page */
+
+	.charge-header .grey-bg .free-charge2{
+		text-align: center;
+	}
+	.charge-.header .grey-bg .free-charge2 .btn.btn-default{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.charge-header .grey-bg .free-charge1{
+		margin-bottom: 15px;
+	}
+
+	.charge-header .grey-bg .free-charge2 p{
+		margin-bottom: 15px;
+	}
+	.footer{
+		padding-bottom: 20px;
+	}
+	.footer .list2{
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.footer .list2 .item-list a{
+		font-size: 16px;
+	}
+
+	.book-functions .main-functions #myTab li a{
+		font-size: 15px
+	}
+
+
+}
+
+@media #{$medium-screens}{
+
+	.main-section .header{height: 90px}
+
+	.main-section .header.shrink{height: 70px}
+
+	.main-section .header .container .logo{padding-top: 10px}
+
+	.main-section .header .container .logo img{max-width: 85%}
+
+	.main-section .header .container .menu-btn{margin-top: 35px}
+
+	.main-section .header .container .menu-btn .btn-line{width: 35px;height: 5px;margin-bottom: 5px;margin-right: 10px;}
+
+	.main-section .header .container nav .nav-list{padding-top: 60px}
+
+	.main-section .header .container nav .nav-list .list-item a{font-size: 13px}
+
+	.search-section .search .container .row .col-md-3 .block a span{margin-top: 10px}
+
+	.search-section .heading p{margin-top: 10px;font-size: 50px}
+
+	.search-section .search .container .row .col-md-3{
+		&:nth-child(2){border-left:none}}
+
+	.search-section .search h4{font-size: 30px}
+
+	.search-section .search button.search{width: 11%}
+
+	.search-section .search h3{font-size: 20px}
+
+	.training .text{
+		width: 50%;
+	}
+
+	.source .text2{
+		width: 50%;
+	}
+
+	.trade .text3{
+		width: 50%;
+	}
+
+	.contact {min-height: 450px}
+
+	.contact .form-content{
+		width: 100%;
+		margin-top: 0;
+		padding: 8px;
+	}
+
+	.contact .form-content button{
+		padding: 8px;
+		font-size: 18px;
+	}
+
+	.book-shop{
+		padding: 20px 0;
+		hr{margin: 0}
+	}
+	.book-shop .book{margin-bottom: 10px}
+
+	.wrapper-books .search-box .search-content .buttonWrapper button.search-btn{
+		left: 177px;
+	}
+	.footer{
+		padding-bottom: 20px;
+	}
+	.footer .list2{
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.footer .list2 .item-list a{
+		font-size: 16px;
+	}
+	.menu-footer h1{margin: 10px 0}
+
+	.charge-header .grey-bg .free-charge2{
+		text-align: center;
+	}
+	.charge-header .grey-bg .free-charge2 .btn.btn-default{
+		display: block;
+		margin: 0 auto;
+	}
+
+	.charge-header .grey-bg .free-charge1{
+		margin-bottom: 15px;
+	}
+
+	.charge-header .grey-bg .free-charge2 p{
+		margin-bottom: 15px;
+	}
+
+}
+
+@media #{$large-screens}{
+
+	/* Start Header
+	.main-section .header{
+		height: 100px;
+	}
+
+	.main-section .header .container nav .nav-list{
+		padding-top: 60px;
+	}
+
+	.main-section .header .container nav .nav-list .list-item a{
+		font-size: 13px
+	}
+
+
+	.main-section .header {.container{.menu-btn{.btn-line{
+		width: 40px;
+		height: 4px;
+		margin-bottom: 5px;
+	}}}}
+
+	.header {.container{.sidebar{
+		top: 132px;
+	}}}
+
+
+	.book-shop .book p{
+		width: 147px;
+	}
+
+	.wrapper-books .search-box .search-content .buttonWrapper button.search-btn{
+		left:233px
+	}
+
+	.wrapper-books .header .nav-list{
+		display: inline-block;
+	}
+
+	.wrapper-books .header .nav-list .list-item:last-child{
+		margin-right: 40px;
+	}
+	.charge-header .grey-bg .free-charge1 p{
+		font-size: 17px;
+	}
+	.charge-header .grey-bg .free-charge1 a{
+		font-size: 17px;
+	}
+	.charge-header .grey-bg .free-charge2 p{
+		font-size: 17px;
+	}
+	.book-functions .main-functions #myTab li a{
+		font-size: 17px;
+	}
+	.book-functions .book-cover .exam{font-size: 14px}
+	.book-functions .book-cover .isbn-1{margin-left: 28px}
+	.book-functions .book-cover .isbn-2{margin-left: 15px}
+	.book-functions .book-cover .isbn-name{margin-right: 20px} /* end large-screens */
+
+}
+
+/* End Media Queries */

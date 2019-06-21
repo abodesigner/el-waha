@@ -1,0 +1,83 @@
+/*
+** Waha website Template.
+** start date: 21/8/2017.
+*/
+
+
+
+/* Start declaring Variables */
+$orangeColor: #f8941e;
+$blueColor: #396eb5;
+$font1 :'JannaLT-Bold', tahoma;
+$font2 :'bader_al gordabia', tahoma;
+$font3 :'Basha-11b Medium', tahoma;
+$font4 :'AraHamah1982-Regular', tahoma;
+$font5 :'AlRaiMediaBold', tahoma;
+
+button:focus,input:focus{
+	outline: none;
+}
+
+body{
+	height: 100%;
+	overflow-x: hidden;
+}
+
+@import "fonts";//@import fonts
+
+/* Start Home Page */
+.main-section{
+	background-image: url('../images/main-bg.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 600px;
+	height: 100%;
+	width: 100%;
+	@import "header";
+}
+
+@import "search";		//@import Search Section
+@import "communicate";	//@import communicate Section
+@import "training";		//@import training Section
+@import "source";		//@import source Section
+@import "trade";		//@import trade Section
+@import "contact";		//@import contact Section
+@import "books-shop";	//@import books-shop Section
+@import "footer"; 		//@import footer Section
+/* End Home Page */
+
+@import "register";		 //@import register page
+@import "main-books";  	 //@import main-books page
+@import "search-result"; //@import search-result page
+@import "book-details";	 //@import search-result page
+
+/* Start classes used to be Extended */
+.noBorder{
+	border-left:none;
+}
+
+.btn-line{
+	width: 50px;
+	height: 7px;
+	display: block;
+	margin-bottom: 7px;
+	background-color: #fff;
+	border-radius: 2px;
+}
+
+label.global{
+	color: #396eb5;
+	font-size: 16px;
+	font-family: $font1;
+	font-weight: bold;
+}
+
+.move-to-left{
+  -webkit-transform: translateX(-300px);
+  -moz-transform: translateX(-300px);
+  -ms-transform: translateX(-300px);
+  -o-transform: translateX(-300px);
+  transform: translateX(-300px);
+}
+/* End classes used to be Extended */

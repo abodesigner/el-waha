@@ -1,0 +1,23 @@
+.menu-btn {
+  float: right;
+  margin-top: 25px;
+  padding-left: 10px;
+  background: none;
+  border: none; }
+  .menu-btn .btn-line {
+    width: 45px;
+    height: 5px;
+    display: block;
+    margin-bottom: 7px;
+    background-color: #fff;
+    border-radius: 2px; }
+  .menu-btn:last-child {
+    margin-bottom: 0; }
+
+.shrink-transition, .menu-btn {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+/*# sourceMappingURL=menu-btn.css.map */

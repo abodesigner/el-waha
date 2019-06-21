@@ -1,0 +1,86 @@
+/* Start declaring Variables */
+$orangeColor: #f8941e;
+$blueColor: #396eb5;
+$font1 :'JannaLT-Bold', tahoma;
+$font2 :'bader_al gordabia', tahoma;
+$font3 :'Basha-11b Medium', tahoma;
+$font4 :'AraHamah1982-Regular', tahoma;
+$font5 :'AlRaiMediaBold', tahoma;
+
+.wrapper-books{
+	@import 'header_books';
+}
+
+.books-result{
+	.control-btn{
+		.control-list{
+			padding-top: 20px;
+			padding-right: 0;
+			text-align: center;
+			.cl{
+				list-style-type: none;
+				padding: 10px;
+				background-color: #8dc63f;
+				margin-bottom: 10px;
+				border-radius: 5px;
+				transition: all 0.2s ease-in-out;
+				&:hover{
+					background-color: $blueColor;
+				}
+
+				a{
+					font-size: 20px;
+					font-family: $font1;
+					color: #fff;
+					&:hover{
+						text-decoration: none;
+					}
+				}
+			}
+		}
+	}// end buttins
+
+	.book-content{
+		padding-top: 30px;
+
+		.book-details{
+				p{
+					font-size: 20px;
+					color: #000;
+					font-family: $font2;
+				}
+				.book-name{
+					@extend .book-style;
+				}
+				.book-category{
+					@extend .book-style;
+				}
+				.author{
+					@extend .book-style;
+				}
+				.rating{
+					@extend .book-style;
+				}
+				.fa{
+					color: #ffba00;
+				}
+		}
+		.prices{
+			font-family: $font1;
+			li{
+				font-size: 16px;
+				margin-bottom: 30px;
+
+				&.rent{color: #d51715}
+				&.last-price{color: #396eb5}
+				&.e-buy{color: #a7a2a2;font-size: 15px;}
+			}
+		}
+	}
+}
+
+.book-style{
+	color: $blueColor;
+	font-size: 20px;
+	font-family: $font1;
+}

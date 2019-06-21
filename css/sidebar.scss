@@ -1,0 +1,56 @@
+/* Start declaring Variables */
+$orangeColor: #f8941e;
+$blueColor: #396eb5;
+$font1 :'JannaLT-Bold', tahoma;
+$font2 :'bader_al gordabia', tahoma;
+$font3 :'Basha-11b Medium', tahoma;
+$font4 :'AraHamah1982-Regular', tahoma;
+$font5 :'AlRaiMediaBold', tahoma;
+
+.sidebar{
+	position: absolute;
+	top: 80px;
+	right: -200px;
+	z-index: 1;
+	width: 200px;
+	height: 600px;
+	background: transparent;
+	margin-top: 50px;
+	transition: all 0.7s ease-in-out;
+
+	&.shrink{
+		top:62px
+	}
+	.sidebar-list{
+		background: transparent;
+		width: 100%;
+		padding-right: 0;
+		color: #fff;
+		margin: 0;
+		text-align: center;
+		.item{
+			list-style-type: none;
+			width: 200px;
+			height: 40px;
+			margin-bottom: 5px;
+			background-color: #f8941e;
+			border-radius: 10px;
+			transition: all 0.15s ease-in-out;
+			&:hover{
+				background-color: #557198;
+				color: #000;
+			}
+
+			a{
+				font-size: 20px;
+				color: inherit;
+				padding: 3px;
+				display: block;
+				font-family: $font1;
+				&:hover,&:focus{
+				text-decoration: none;
+				}
+			}
+		}//end item
+	}//end sidebar list
+}// end side bar
